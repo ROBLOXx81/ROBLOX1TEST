@@ -1,9 +1,4 @@
- print("ENC °•° BY OMG_MH") 
- PASSW = gg.prompt({"🔒 Input password: "},{[1]=""},{[1]="text"})
- if not PASSW the﻿n return end
- if PASSW[1] == "" then gg.alert("❌Password Can Not Be Empty ❌") end
- if PASSW[1] == "Wolfforevr" then gg.toast("✔️Password correct😘") else gg.toast("خەلەتە جانو") return end
-
+print("BY OMG_MH") if os.date("%Y%m%d") >= "20200112" then print("خلاس") return gg.alert("خلاس")end
 --RELOAD GUI
 if game.CoreGui:FindFirstChild("SysBroker") then
 	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Mzury",Text = "سناپی ئەدد کە بو ئابدێتێن سکریپتێ : r8yoh",Duration = 15;})
